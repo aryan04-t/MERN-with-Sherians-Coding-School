@@ -1,0 +1,371 @@
+:root {
+    --eerie-black: #202124;
+    --air-force-blue: #5f92afff;
+    --black: #000000ff;
+    --eerie-black-2: #202124;
+    --jet: #2c2d31ff;
+}
+
+img {
+    padding-bottom: 12px;
+}
+
+body {
+    background-color: #202124;
+    color: #dddddd;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 165px;
+
+    height: 100%;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.button>button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    font-size: 14px;
+    padding-bottom: 8px;
+    width: max-content;
+    /* Sesuaikan dengan lebar yang diinginkan */
+
+
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 14px;
+    background: #2d2f31;
+    border: 1px solid #2c2d31ff;
+    color: #e8eaed;
+    margin-top: 17px;
+    border-radius: 5px;
+}
+
+.button>button:hover {
+    border: 1px solid #bdc1c6;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    font-size: 17.8px;
+    color: #bdc1c6;
+    padding: 0px 0px 0px 10px;
+    width: 325px;
+    /* Sesuaikan dengan lebar yang diinginkan */
+
+}
+
+.offer>a {
+    color: #8ab4f8;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover,
+a:hover,
+.icon:hover {
+    cursor: pointer;
+
+}
+
+footer>a {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 13px;
+    padding-bottom: 15px;
+
+    float: left;
+}
+
+footer>h3 {
+    margin-left: 20px;
+    font-size: 13px;
+
+    font-weight: 0;
+}
+
+footer {
+    padding: 0px;
+}
+
+.right {
+    float: right;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    /* Sesuaikan dengan lebar yang diinginkan */
+    max-width: 584px;
+    min-width: 360px;
+}
+
+.search-input {
+    padding: 12px;
+    width: 100%;
+    color: #dddddd;
+    box-sizing: border-box;
+    background: var(--eerie-black-2);
+    border: 1px solid #444746;
+    border-radius: 40px;
+    padding-left: 8%;
+}
+
+.search-input:focus {
+    border: 1px solid #303134;
+    background: #303134;
+    outline: none;
+}
+
+.search-input:hover {
+    border: 1px solid #303134;
+    background: #303134;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 5px;
+    /* Sesuaikan posisi icon di sebelah kiri input */
+    padding-left: 10px;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #161616;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+nav>a {
+    margin-right: 10px;
+
+    font-size: 13px;
+
+    :root {
+        --eerie-black: #202124;
+        --air-force-blue: #5f92afff;
+        --black: #000000ff;
+        --eerie-black-2: #202124;
+        --jet: #2c2d31ff;
+    }
+
+    img {
+        padding-bottom: 12px;
+    }
+
+    body {
+        background-color: #202124;
+        color: #dddddd;
+        font-family: Arial;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 165px;
+
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 100%;
+    }
+
+    .button>button {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        font-size: 14px;
+        padding-bottom: 8px;
+        width: max-content;
+        /* Sesuaikan dengan lebar yang diinginkan */
+
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 14px;
+        background: #2d2f31;
+        border: 1px solid #2c2d31ff;
+        color: #e8eaed;
+        margin-top: 17px;
+        border-radius: 5px;
+    }
+
+    .button>button:hover {
+        border: 1px solid #bdc1c6;
+    }
+
+    .offer {
+        font-size: 17.8px;
+        color: #bdc1c6;
+        width: 325px;
+        /* Sesuaikan dengan lebar yang diinginkan */
+    }
+
+    .offer>a {
+        color: #8ab4f8;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    button:hover,
+    a:hover,
+    .icon:hover {
+        cursor: pointer;
+    }
+
+    footer>a {
+        margin-left: 20px;
+        padding: 10px;
+        font-size: 13px;
+        padding-bottom: 15px;
+
+        float: left;
+    }
+
+    footer>h3 {
+        margin-left: 20px;
+        font-size: 13px;
+
+        font-weight: 0;
+    }
+
+    footer {
+        padding: 0px;
+    }
+
+    .right {
+        float: right;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+
+    .search-container {
+        position: relative;
+        width: 100%;
+        /* Sesuaikan dengan lebar yang diinginkan */
+        max-width: 584px;
+        min-width: 360px;
+    }
+
+    .search-input {
+        padding: 12px;
+        width: 100%;
+        color: #dddddd;
+        box-sizing: border-box;
+        background: var(--eerie-black-2);
+        border: 1px solid #444746;
+        border-radius: 40px;
+        padding-left: 8%;
+    }
+
+    .search-input:focus {
+        border: 1px solid #303134;
+        background: #303134;
+        outline: none;
+    }
+
+    .search-input:hover {
+        border: 1px solid #303134;
+        background: #303134;
+        outline: none;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 5px;
+        /* Sesuaikan posisi icon di sebelah kiri input */
+        padding-left: 10px;
+
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: #161616;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        justify-content: flex-end;
+    }
+
+    nav>a {
+        margin-right: 10px;
+
+        font-size: 13px;
+        color: white;
+        text-decoration: none;
+    }
+
+    nav>a:hover {
+        text-decoration: none;
+    }
+
+    nav>svg {
+        width: 24px;
+        height: 24px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    color: white;
+    text-decoration: none;
+}
+
+nav>svg {
+    width: 24px;
+    height: 24px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
